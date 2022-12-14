@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bioinf-maflib = {ref = "2.3.3", git = "https://github.com/NCI-GDC/maf-lib.git"}
+gql = {extras = ["requests"], version = "*"}
+lifelines = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+requests = "*"
+scikit-learn = "*"
+scipy = "*"
+seaborn = "*"
+tensorflow = "*"
+tensorflow-decision-forests = "*"
+tqdm = "*"
+
+[dev-packages]
+ipykernel = "*"
+nbconvert = "*"
+
+[requires]
+python_version = "3.8"
